@@ -187,7 +187,7 @@ async function readSolution(askForData, askForValue) {
 async function runPuzzle(puzzleCode, { data, value }) {
   const [s] = await ethers.getSigners();
 
-  const address = "0xffffffffffffffffffffffffffffffffffffffff";
+  const address = "0x9bbfed6889322e016e0a02ee459d306fc19545d8";
 
   await hre.network.provider.send("hardhat_setCode", [
     address,
